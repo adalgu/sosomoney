@@ -12,5 +12,19 @@ fields:
       format: markdown
   label: text
   description: '이것은 '
+- name: body2
+  type: text
+  config:
+    required: false
+  label: body2
+- name: body
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: body
 pages:
 - content/post/2021-09-05-firstsoso.md
