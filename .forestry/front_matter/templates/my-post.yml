@@ -12,3 +12,5 @@ fields:
       format: markdown
   label: text
   description: '이것은 '
+pages:
+- content/post/2021-09-05-firstsoso.md
